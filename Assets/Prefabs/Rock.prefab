@@ -100,9 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54b78bda75c48a64bb7e6d0995c7dc04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  point: 5
+  point: 0
+  weight: 3
   speed: 2
-  threshold_angle: 180
   player: {fileID: 1896822376700183337, guid: 74ed411e278587e4d89e74314acfd6ac, type: 3}
 --- !u!58 &8776012111340345659
 CircleCollider2D:

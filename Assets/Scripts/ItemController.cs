@@ -6,12 +6,11 @@ using UnityEngine;
 public class ItemController : MonoBehaviour
 {
     public int point;
+    public int weight;
     public float speed;
 
     private Rigidbody2D rb;
 
-    private Vector2 validDirection = Vector2.up;
-    public int threshold_angle = 180;
 
     public GameObject player;
     // Start is called before the first frame update

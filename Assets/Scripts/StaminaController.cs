@@ -27,8 +27,8 @@ public class StaminaController : MonoBehaviour
     {
         if (other.CompareTag("Uncollectable"))
         {
-            int point = other.GetComponent<ItemController>().point;
-            weight += point;
+            int weight = other.GetComponent<ItemController>().weight;
+            weight += weight;
         }
     }
 }

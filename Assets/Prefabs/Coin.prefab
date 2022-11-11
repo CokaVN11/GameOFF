@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7131337970920568720}
   - component: {fileID: 631379242537636896}
   m_Layer: 0
-  m_Name: Fruit
+  m_Name: Coin
   m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: 5
+  weight: 1
   speed: 2
-  threshold_angle: 180
   player: {fileID: 1896822376700183337, guid: 74ed411e278587e4d89e74314acfd6ac, type: 3}
 --- !u!58 &3318984734900897562
 CircleCollider2D:
